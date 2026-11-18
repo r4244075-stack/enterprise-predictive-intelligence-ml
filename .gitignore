@@ -1,10 +1,10 @@
-# Ignore large raw and processed dataset files (>25MB portal limit)
-data/raw/*.csv
-!data/raw/data_dictionary.csv
-data/processed/*.csv
-data/processed/*.parquet
+# Byte-compiled / cache / virtual environments
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 .ipynb_checkpoints/
+.venv/
+venv/
 .env
 mlruns/
+.pytest_cache/

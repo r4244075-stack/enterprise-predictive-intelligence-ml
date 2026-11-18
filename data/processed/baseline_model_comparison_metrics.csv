@@ -1,0 +1,29 @@
+task,model,split,accuracy,precision,recall,specificity,f1,roc_auc,pr_auc,brier_score,tn,fp,fn,tp
+1. Customer Retention,Dummy Prior Baseline,val,0.6521,0.0,0.0,1.0,0.0,0.5,0.3415,0.2269,2934,0,1565,0
+1. Customer Retention,Dummy Prior Baseline,test,0.6521,0.0,0.0,1.0,0.0,0.5,0.3569,0.2269,2934,0,1565,0
+1. Customer Retention,Logistic Regression (Unweighted),val,0.7059,0.6215,0.3955,0.8715,0.4834,0.7371,0.5827,0.1916,2557,377,946,619
+1. Customer Retention,Logistic Regression (Unweighted),test,0.7104,0.6326,0.3994,0.8763,0.4896,0.7415,0.6,0.1897,2571,363,940,625
+1. Customer Retention,"Logistic Regression (Class-Balanced, t=0.50)",val,0.675,0.5256,0.676,0.6745,0.5914,0.7371,0.5827,0.2076,1979,955,507,1058
+1. Customer Retention,"Logistic Regression (Class-Balanced, t=0.50)",test,0.6766,0.5273,0.6786,0.6755,0.5935,0.7415,0.5999,0.2049,1982,952,503,1062
+1. Customer Retention,"Logistic Regression (ROS Oversampled, t=0.50)",val,0.6737,0.5241,0.6748,0.6731,0.5899,0.7371,0.5827,0.2078,1975,959,509,1056
+1. Customer Retention,"Logistic Regression (ROS Oversampled, t=0.50)",test,0.6753,0.5258,0.678,0.6738,0.5922,0.741,0.5984,0.2053,1977,957,504,1061
+1. Customer Retention,Logistic Regression (Balanced + Val-Tuned t=0.46),val,0.6541,0.5019,0.7431,0.6067,0.5992,0.7371,0.5827,0.2076,1780,1154,402,1163
+1. Customer Retention,Logistic Regression (Balanced + Val-Tuned t=0.46),test,0.6524,0.5002,0.7278,0.6121,0.5929,0.7415,0.5999,0.2049,1796,1138,426,1139
+2. Delivery Delay (Cls),Majority Prior Baseline,val,0.5929,0.5929,1.0,0.0,0.7445,0.5,0.601,0.2414,0,2442,0,3557
+2. Delivery Delay (Cls),Majority Prior Baseline,test,0.5929,0.5929,1.0,0.0,0.7445,0.5,0.6018,0.2414,0,2442,0,3557
+2. Delivery Delay (Cls),Weather Empirical-Prior Rule Baseline,val,0.5929,0.5929,1.0,0.0,0.7445,0.6445,0.7489,0.2198,0,2442,0,3557
+2. Delivery Delay (Cls),Weather Empirical-Prior Rule Baseline,test,0.5929,0.5929,1.0,0.0,0.7445,0.6335,0.7368,0.2226,0,2442,0,3557
+2. Delivery Delay (Cls),"Logistic Regression (Unweighted, t=0.50)",val,0.7818,0.8051,0.8338,0.706,0.8192,0.8579,0.8977,0.15,1724,718,591,2966
+2. Delivery Delay (Cls),"Logistic Regression (Unweighted, t=0.50)",test,0.7723,0.795,0.8299,0.6884,0.8121,0.8472,0.8891,0.1556,1681,761,605,2952
+2. Delivery Delay (Cls),"Logistic Regression (Class-Balanced, t=0.50)",val,0.7763,0.8382,0.7717,0.783,0.8036,0.8579,0.8977,0.1538,1912,530,812,2745
+2. Delivery Delay (Cls),"Logistic Regression (Class-Balanced, t=0.50)",test,0.7671,0.8301,0.7636,0.7723,0.7954,0.8472,0.8892,0.1594,1886,556,841,2716
+3. Marketing Lead Conversion,Dummy Prior Baseline (10.5% base rate),val,0.8949,0.0,0.0,1.0,0.0,0.5,0.0839,0.094,1073,0,126,0
+3. Marketing Lead Conversion,Dummy Prior Baseline (10.5% base rate),test,0.8949,0.0,0.0,1.0,0.0,0.5,0.1165,0.094,1073,0,126,0
+3. Marketing Lead Conversion,Origin-Channel Prior Baseline,val,0.8949,0.0,0.0,1.0,0.0,0.7147,0.1791,0.0885,1073,0,126,0
+3. Marketing Lead Conversion,Origin-Channel Prior Baseline,test,0.8949,0.0,0.0,1.0,0.0,0.7234,0.1803,0.0883,1073,0,126,0
+3. Marketing Lead Conversion,"Logistic Regression (Unweighted, t=0.50)",val,0.9241,0.6923,0.5,0.9739,0.5806,0.9471,0.6856,0.0541,1045,28,63,63
+3. Marketing Lead Conversion,"Logistic Regression (Unweighted, t=0.50)",test,0.9383,0.7955,0.5556,0.9832,0.6542,0.9549,0.7518,0.0459,1055,18,56,70
+3. Marketing Lead Conversion,"Logistic Regression (Class-Balanced, t=0.50)",val,0.8674,0.4353,0.881,0.8658,0.5827,0.9472,0.6894,0.0947,929,144,15,111
+3. Marketing Lead Conversion,"Logistic Regression (Class-Balanced, t=0.50)",test,0.8707,0.4436,0.9048,0.8667,0.5953,0.9544,0.7512,0.0869,930,143,12,114
+3. Marketing Lead Conversion,Logistic Regression (Balanced + Val-Tuned t=0.75),val,0.9041,0.5322,0.7222,0.9254,0.6128,0.9472,0.6894,0.0947,993,80,35,91
+3. Marketing Lead Conversion,Logistic Regression (Balanced + Val-Tuned t=0.75),test,0.9358,0.6561,0.8175,0.9497,0.7279,0.9544,0.7512,0.0869,1019,54,23,103
