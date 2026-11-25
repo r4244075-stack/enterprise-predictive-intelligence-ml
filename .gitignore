@@ -1,10 +1,8 @@
-# Byte-compiled / cache / virtual environments
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
 .ipynb_checkpoints/
+.DS_Store
+data/raw/*.csv
+!data/raw/README_PUT_DATA_HERE.txt
 .venv/
 venv/
-.env
-mlruns/
-.pytest_cache/

@@ -1,0 +1,6 @@
+model,cv_rmse_mean,cv_rmse_std,cv_mae_mean,cv_r2_mean,train_rmse,test_rmse,test_mae,test_r2,test_median_ae,within_1_day_pct
+Ridge Regression,1.1762,0.0099,0.919,0.5207,1.1755,1.1612,0.9095,0.5377,0.7533,62.55
+Hist Decision Tree,1.1878,0.0105,0.9309,0.5112,1.163,1.1708,0.9187,0.5301,0.701,64.62
+Hist Random Forest,1.1901,0.0091,0.951,0.5094,1.1529,1.1816,0.9453,0.5214,0.7634,62.75
+Hist GBDT (Default),1.1703,0.0114,0.9176,0.5255,1.152,1.1578,0.9077,0.5404,0.7324,63.71
+HistGBDT Regressor (Tuned),1.1708,0.0108,0.9225,0.5251,1.164,1.1599,0.9149,0.5388,0.7456,63.46

@@ -1,0 +1,11 @@
+customer_id,tenure_months,orders_last_180d,days_since_last_order,support_tickets_last_180d,no_purchase_next_90d,pred_prob,task,error_type
+DS_CUST_015532,2,0,166,4,0,0.8215,retention,FP
+DS_CUST_007362,5,0,173,2,0,0.8213,retention,FP
+DS_CUST_028923,1,0,167,2,0,0.8151,retention,FP
+DS_CUST_016125,4,0,142,2,0,0.8108,retention,FP
+DS_CUST_001934,4,0,110,4,0,0.8051,retention,FP
+DS_CUST_010028,58,11,20,0,1,0.0226,retention,FN
+DS_CUST_008214,59,10,23,1,1,0.038,retention,FN
+DS_CUST_006358,58,15,78,0,1,0.0409,retention,FN
+DS_CUST_000344,59,8,17,0,1,0.0467,retention,FN
+DS_CUST_021414,51,8,29,0,1,0.0475,retention,FN
